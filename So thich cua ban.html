@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sở Thích của bạn</title>
+    <style>
+        caption{ background-color: orangered;
+        color: white;}
+        th, td { padding: 5px;}
+        th { color: blue;
+        text-align: right;}
+    </style>
+
+</head>
+<body>
+<table style="width: 100%">
+    <caption>SO THICH CUA BAN</caption>
+    <tr>
+        <th>Ho va Ten</th>
+        <td> <input type="text" name="fullname" size="70"></td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td> <input type="text" name="email" size="50"></td>
+    </tr>
+    <tr>
+        <th>So Thich</th>
+        <td>
+            <label><input type="checkbox" name="st"> Thể thao &nbsp;&nbsp;</label>
+            <label><input type="checkbox" name="st">Âm nhạc &nbsp;&nbsp;</label>
+            <label><input type="checkbox" name="st">Đọc sách &nbsp;&nbsp;</label>
+            <br>
+            <label><input type="checkbox" name="st">Lướt Web &nbsp;&nbsp;</label>
+            <input type="checkbox" name="st"> Chơi Game &nbsp;&nbsp;
+            <input type="checkbox" name="st"> Điện ảnh
+            <br>
+            <input type="checkbox" name="st"> Du lịch
+        </td>
+    </tr>
+    <tr>
+        <th><input type="submit" value="Gửi Thông Tin"/>
+        <input type="reset" value="Nhập lại"/>
+        </th>
+    </tr>
+</table>
+</body>
+</html>

@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Test Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 20px;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color:blue;
+            color: white;
+        }
+        tr:nth-child(odd) {
+            background-color:yellow;
+            color: aqua;
+        }
+        th {
+            background-color: black;
+            color: red;
+        }
+
+    </style>
 </head>
 <body>
-
+<form>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>
